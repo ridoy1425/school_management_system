@@ -1,0 +1,122 @@
+.apparel_inspections
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: none;
+}
+
+.wrap-c h2{
+    font-size: 1.1rem;
+}
+
+.wrap-c h3{
+    font-size: 1rem;
+}
+
+
+.wrap-c input[type='text']
+{
+    min-width: 50%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: .2rem .5rem;
+    font-size: 1rem;
+    outline: none;
+
+}
+
+.INSPECTION_type
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: black;
+}
+
+.PRODUCT_QTY
+{
+    display: flex;
+
+}
+
+.ileft,.iright
+{
+    flex: 1;
+}
+
+.iright select
+{
+    outline: 0;
+    font-weight:300;
+}
+
+.PURCHASE_ORDER
+{
+    display: flex;
+}
+.PURCHASE_ORDER >div
+{
+    flex: 1;
+}
+
+.Sample_available
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.SAMPLE_PLAN
+{
+    display: flex;
+}
+
+.SAMPLE_PLAN > div
+{
+    flex: 1;
+}
+
+/* apparel_Factory_Audit=========== */
+
+.ASSESSMENTAUDIT
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* apparel_Ethical-Audit========= */
+.apparel_Ethical-SECURITY
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.SEDEX-form
+{
+    display: flex;
+
+}
+
+.SEDEX-form > div
+{
+    flex: 1;
+}
+
+.FSLM-form
+{
+    display: flex;
+}
+.FSLM-form > div
+{
+    flex: 1;
+}
+
+
+/* ============== */
+.hide{
+    display: none;
+}
+
+.showThis
+{
+    display: block !important;
+}
